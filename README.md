@@ -33,15 +33,15 @@ Plataforma web colaborativa donde la comunidad mapea y actualiza en tiempo real 
 
 ## Stack tecnológico
 
-| Capa | Tecnología |
-|---|---|
-| Frontend | React + TypeScript + Vite |
-| Mapas | Leaflet.js |
-| Backend | Node.js + Express |
-| Base de datos | PostgreSQL + PostGIS |
-| Tiempo real | Socket.io |
-| Notificaciones | Web Notifications API (PWA) |
-| Plataforma | Vercel (front) · Railway (back) · Supabase (BD) |
+| Capa           | Tecnología                                      |
+| -------------- | ----------------------------------------------- |
+| Frontend       | React + TypeScript + Vite                       |
+| Mapas          | Leaflet.js                                      |
+| Backend        | Node.js + Express                               |
+| Base de datos  | PostgreSQL + PostGIS                            |
+| Tiempo real    | Socket.io                                       |
+| Notificaciones | Web Notifications API (PWA)                     |
+| Plataforma     | Vercel (front) · Railway (back) · Supabase (BD) |
 
 ## Estructura del repositorio
 
@@ -59,28 +59,26 @@ https://github.com/cridvon/HidrApp
 
 ## Plan de trabajo
 
-| Etapa | Período | Objetivo |
-|---|---|---|
-| 1 | Semana 1-2 | Repositorio, estructura y modelo de datos |
-| 2 | Semana 3-4 | CRUD de puntos y mapa interactivo |
-| 3 | Semana 5-6 | Geofencing básico y notificaciones |
-| 4 | Semana 7-8 | Tiempo real (Socket.io), pruebas y pulido |
-| 5 | Semana 9+ | Documentación final, video demo y coloquio |
+| Etapa | Período    | Objetivo                                   |
+| ----- | ---------- | ------------------------------------------ |
+| 1     | Semana 1-2 | Repositorio, estructura y modelo de datos  |
+| 2     | Semana 3-4 | CRUD de puntos y mapa interactivo          |
+| 3     | Semana 5-6 | Geofencing básico y notificaciones         |
+| 4     | Semana 7-8 | Tiempo real (Socket.io), pruebas y pulido  |
+| 5     | Semana 9+  | Documentación final, video demo y coloquio |
 
 ## Cómo correr el proyecto
 
 ### Backend
+
 ```bash
-cd backend
-npm install
-npm run dev
+TBD
 ```
 
 ### Frontend
+
 ```bash
-cd frontend
-npm install
-npm run dev
+TBD
 ```
 
 ## Licencia
