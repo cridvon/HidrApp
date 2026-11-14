@@ -84,7 +84,12 @@ HidrApp/
 │       ├── mapa/
 │       ├── auth/
 │       └── notificaciones/
-├── docs/              # Documentación académica (entregas, diagramas)
+├── database/
+│   └── schema.sql        # Esquema PostgreSQL + PostGIS (DDL + datos iniciales)
+├── docs/
+│   ├── arquitectura.md   # Arquitectura, tecnologías y justificación
+│   ├── er_hidrapp.png    # Diagrama entidad-relación
+│   └── modulos.md        # Listado de módulos con prioridad
 └── README.md
 ```
 
@@ -106,12 +111,16 @@ https://github.com/cridvon/HidrApp
 
 ### Backend
 ```bash
-TBD
+cd backend
+npm install
+npm run dev
 ```
 
 ### Frontend
 ```bash
-TBD
+cd frontend
+npm install
+npm run dev
 ```
 
 ## Licencia
